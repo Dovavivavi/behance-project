@@ -109,7 +109,17 @@ body {
 #explore {
     width: 100%;
     height: 40vh;
-    background: url('images/man\ hiking.jpg');
-    background-size: contain;
+    background: url('images/turist-hiking.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
